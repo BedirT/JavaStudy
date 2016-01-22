@@ -31,8 +31,15 @@ class JavaLearning {
 //        tunaObject.saying();
         
         //17th tutorial
-        tuna tunaObject = new tuna("None");
-        tunaObject.saying();
+//        tuna tunaObject = new tuna("None");
+//        tunaObject.saying();
         
+        //20th tutorial
+        //int age = 33;
+        Scanner input = new Scanner(System.in);
+        System.out.print("How old are you ?  ");
+        int age = input.nextInt();
+        System.out.println( age > 30 ? "You are old." : "You are young");
+
     } 
 }
