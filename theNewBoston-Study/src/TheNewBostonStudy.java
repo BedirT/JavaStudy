@@ -23,5 +23,14 @@ class JavaLearning {
 //        tunaObject.simpleMessage(name);
 
         //16th tutorial
+//        Scanner input = new Scanner(System.in);
+//        tuna tunaObject = new tuna();
+//        System.out.println("Enter your first gf's name:  ");
+//        String temp = input.nextLine();
+//        tunaObject.setName(temp);
+//        tunaObject.saying();
+        
+        //17th tutorial
+
     } 
 }
