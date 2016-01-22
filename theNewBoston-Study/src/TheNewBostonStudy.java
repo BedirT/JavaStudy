@@ -31,6 +31,8 @@ class JavaLearning {
 //        tunaObject.saying();
         
         //17th tutorial
-
+        tuna tunaObject = new tuna("None");
+        tunaObject.saying();
+        
     } 
 }
