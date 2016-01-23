@@ -36,10 +36,12 @@ class JavaLearning {
         
         //20th tutorial
         //int age = 33;
-        Scanner input = new Scanner(System.in);
-        System.out.print("How old are you ?  ");
-        int age = input.nextInt();
-        System.out.println( age > 30 ? "You are old." : "You are young");
+//        Scanner input = new Scanner(System.in);
+//        System.out.print("How old are you ?  ");
+//        int age = input.nextInt();
+//        System.out.println( age > 30 ? "You are old." : "You are young");
 
+        //21th tutorial
+        
     } 
 }
