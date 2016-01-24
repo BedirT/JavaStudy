@@ -41,7 +41,25 @@ class JavaLearning {
 //        int age = input.nextInt();
 //        System.out.println( age > 30 ? "You are old." : "You are young");
 
-        //21th tutorial
+        //21st tutorial
+        //Basic average program 
+//        Scanner input = new Scanner(System.in);
+//        int total = 0 ; 
+//        int average, grade, counter = 0;
+//        
+//        while ( counter < 10 ){
+//            
+//            grade = input.nextInt();
+//            total += grade;
+//            counter++;
+//            
+//        }
+//        average = total / 10 ;
+//        
+//        System.out.println("The average is = " + average);
+//        
+
+        //22nd tutorial
         
     } 
 }
