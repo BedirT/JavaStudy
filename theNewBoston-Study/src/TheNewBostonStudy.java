@@ -64,14 +64,35 @@ class JavaLearning {
         //so I'll pass this
         
         //23rd tutorial
-        double amount, principal=10000, rate=.01 ;
+        //really basic for loop program
+//        double amount, principal=10000, rate=.01 ;
+//        
+//        for (int day = 1 ; day <= 20 ; day++){
+//            amount = principal*Math.pow(1+rate, day);
+//            System.out.println(day+ " " + amount);
+//                   
+//        }
+
+        //24th tutorial
+        //Same as c again
         
-        for (int day = 1 ; day <= 20 ; day++){
-            amount = principal*Math.pow(1+rate, day);
-            System.out.println(day+ " " + amount);
-                   
-        }
-              
+        //25th tutorial
+        //Math things
+        
+        //Abs is getting the numbers absoulute value
+        System.out.println(Math.abs(-7));
+        //Ceil makes the value rounded to the integer that is one more from base
+        System.out.println(Math.ceil(3.3));
+        //Floor makes the value rounded to the base integer 
+        System.out.println(Math.floor(3.7));
+        //Max getting maximum number between two numbers
+        System.out.println(Math.max(7, 4));
+        //Min getting minimum number between two numbers
+        System.out.println(Math.min(7, 4));
+        //Pow is getting the power of the first number by second one
+        System.out.println(Math.pow(2, 3));
+        //Sqrt is getting squareroot of the number
+        System.out.println(Math.sqrt(16));
         
     } 
 }
