@@ -25,7 +25,7 @@ secondHalf = phrase.substring(middleIndex, phraseLength);
 // concatenate the firstHalf at the end of the secondHalf
 switchedPhrase = secondHalf.concat(firstHalf);
 // print information about the phrase
-middle3 = phrase.substring(middleIndex-1,middleIndex+1);
+middle3 = phrase.substring(middleIndex-1,middleIndex+2);
 
 switchedPhrase = switchedPhrase.replace(" ", "*");
 Scanner scan = new Scanner(System.in);
