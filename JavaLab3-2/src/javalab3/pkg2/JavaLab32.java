@@ -35,7 +35,6 @@ System.out.println("Please enter your hometown's state");
 String state = scan.nextLine();
 
 
-
 System.out.println();
 System.out.println ("Original phrase: " + phrase);
 System.out.println ("Length of the phrase: " + phraseLength +

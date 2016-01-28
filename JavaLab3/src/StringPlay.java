@@ -13,6 +13,6 @@ public class StringPlay {
         change2 = college.replace("O", "*"); // part (d)
         change3 = college.concat(town); // part (e)
         System.out.println("The final string is " + change3);
-    
+
     }
 }
