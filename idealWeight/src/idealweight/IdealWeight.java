@@ -1,6 +1,13 @@
 package idealweight;
 
 //@author BedirTapkan
+/*
+Desctiption : We will calculate a persons ideal weight by looking her/his height
+
+ProgramName : idealWeight
+
+*/
+
 
 import java.util.Scanner;
 
