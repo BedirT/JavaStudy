@@ -30,3 +30,5 @@ hs_err_pid*
 /enums/build/
 /intClass/nbproject/private/
 /intClass/build/
+/BankAccount/nbproject/private/
+/BankAccount/build/

@@ -1,4 +1,5 @@
-?import java.util.Scanner;
+import java.util.Scanner;
+import java.util.Random;
 
 class JavaLearning {
     public static void main (String args[]){
@@ -80,19 +81,34 @@ class JavaLearning {
         //Math things
         
         //Abs is getting the numbers absoulute value
-        System.out.println(Math.abs(-7));
-        //Ceil makes the value rounded to the integer that is one more from base
-        System.out.println(Math.ceil(3.3));
-        //Floor makes the value rounded to the base integer 
-        System.out.println(Math.floor(3.7));
-        //Max getting maximum number between two numbers
-        System.out.println(Math.max(7, 4));
-        //Min getting minimum number between two numbers
-        System.out.println(Math.min(7, 4));
-        //Pow is getting the power of the first number by second one
-        System.out.println(Math.pow(2, 3));
-        //Sqrt is getting squareroot of the number
-        System.out.println(Math.sqrt(16));
+//        System.out.println(Math.abs(-7));
+//        //Ceil makes the value rounded to the integer that is one more from base
+//        System.out.println(Math.ceil(3.3));
+//        //Floor makes the value rounded to the base integer 
+//        System.out.println(Math.floor(3.7));
+//        //Max getting maximum number between two numbers
+//        System.out.println(Math.max(7, 4));
+//        //Min getting minimum number between two numbers
+//        System.out.println(Math.min(7, 4));
+//        //Pow is getting the power of the first number by second one
+//        System.out.println(Math.pow(2, 3));
+//        //Sqrt is getting squareroot of the number
+//        System.out.println(Math.sqrt(16));
+//        
+
+        //26th tutorial
+        //Random number gen.
+        Random rand = new Random();
+        int number;
+        
+        Scanner scan = new Scanner(System.in);
+        System.out.print("How many times u wanna roll? ");
+        int counter = scan.nextInt(); 
+        
+        for (int i = 0 ; i < counter ; i++){
+            System.out.println(1+rand.nextInt(6));
+        
+        }
         
     } 
 }
