@@ -354,12 +354,13 @@ public class rocky extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        setBounds(0, 0, 440, 1182);
+        setBounds(0, 0, 446, 280);
     }// </editor-fold>//GEN-END:initComponents
     
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         jPanel1.setVisible(false);
         jPanel3.setVisible(true);
+        jPanel2.setVisible(false);
         jButton3.setVisible(false);
     }//GEN-LAST:event_jButton1ActionPerformed
 
@@ -410,7 +411,7 @@ public class rocky extends javax.swing.JFrame {
         
         if (counter-1 == textValue){
             jPanel3.setVisible(false);
-            jPanel4.setVisible(true);
+            jPanel6.setVisible(true);
         }
         
     }//GEN-LAST:event_rockActionPerformed
@@ -440,7 +441,7 @@ public class rocky extends javax.swing.JFrame {
                 
         if (counter-1 == textValue){
             jPanel3.setVisible(false);
-            jPanel4.setVisible(true);
+            jPanel6.setVisible(true);
         }
     }//GEN-LAST:event_scissorsActionPerformed
 
@@ -469,7 +470,7 @@ public class rocky extends javax.swing.JFrame {
         
         if (counter-1 == textValue){
             jPanel3.setVisible(false);
-            jPanel4.setVisible(true);
+            jPanel6.setVisible(true);
         }
     }//GEN-LAST:event_paperActionPerformed
 
@@ -492,7 +493,7 @@ public class rocky extends javax.swing.JFrame {
         playersCoice.setText("Player");
         scoreComp.setText("" + compScore);
         scorePlayer.setText("" + playerScore);
-        
+        jTextField1.setText("");
     }//GEN-LAST:event_againActionPerformed
 
     /**
