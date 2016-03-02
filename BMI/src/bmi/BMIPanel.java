@@ -15,11 +15,9 @@ import javax.swing.*;
  */
 public class BMIPanel extends JPanel {
 
-    private int WIDTH = 300;
-    private int HEIGHT = 120;
     private JLabel heightLabel, weightLabel, BMILabel, resultLabel;
     private JTextField height, weight;
-    private JButton calculate;
+    private JButton Tournoument,Single;
 // -----------------------------------------------------------------
 //  Sets up the GUI.
 // -----------------------------------------------------------------
@@ -37,9 +35,9 @@ public class BMIPanel extends JPanel {
         weight = new JTextField("      ");      
 //create a JTextField to hold the person's weight in pounds
 //create a button to press to calculate BMI
-        calculate = new JButton("Calculate");
+        Tournoument = new JButton("Calculate");
 //create a BMIListener and make it listen for the button to be pressed
-        calculate.addActionListener(new BMIListener());
+        Tournoument.addActionListener(new BMIListener());
 //add the height label and height textfield to the panel
         add(heightLabel);
         add(height);
