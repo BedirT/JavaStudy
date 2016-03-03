@@ -24,7 +24,7 @@ public class AllAction {
         BandBooster thing2 = new BandBooster("Jack");
         
         Scanner scan = new Scanner(System.in);
-        
+
         System.out.print("Enter the number of boxes sold by "+ thing1.getName() +" this week: ");
         thing1.updateSales(scan.nextInt());
         
