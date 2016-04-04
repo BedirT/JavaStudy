@@ -1,8 +1,7 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+    The program should simulate a drunk staggering randomly on some
+    sort of platform.
+*/
 package randomwalks;
 
 /**
@@ -32,12 +31,4 @@ public class DrunkenWalk {
         System.out.println(falls);
         
     }
-    
-//            your program. To see the “randomness” you should run it several
-//            times. Try input of 10 for the boundary and 200 for the number 
-//            of steps first (sometimes the drunk falls off, sometimes not); try 
-//            10 for the boundary and 500 for the steps (you should see different
-//            behavior); try 50 for the boundary and 200 for the steps
-//            (again different behavior).
-    
 }

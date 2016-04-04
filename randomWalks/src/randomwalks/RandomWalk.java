@@ -15,7 +15,7 @@ import java.util.Random;
 public class RandomWalk {
 
     int curX = 0, curY = 0, steps = 0;
-    int maxStep = 0, boundary = 0;
+    int maxStep = 0, boundary = 0, maxDistance = 0;
     
     RandomWalk (int max, int edge){
         
@@ -39,8 +39,10 @@ public class RandomWalk {
     
     void takeStep(){ // WE HAVE A PROBLEM HERE ??
         Random random = new Random();
-
+        
+        
         int  rand = random.nextInt(4);
+        
         //System.out.println(rand);
         
         if      (rand==0){curX++;}
@@ -51,6 +53,8 @@ public class RandomWalk {
         // If I make it Switch , and don't use break, it is causing error
         // WHY IS THAT ??
         
+        maxDistance = max(maxDistance, max(Math.abs(curX), Math.abs(curY)));
+        
         steps++;
     }
     
@@ -59,7 +63,7 @@ public class RandomWalk {
     }
     
     boolean inBounds(){
-        return curY<=boundary && curX<=boundary;
+        return Math.abs(curY)<=boundary && Math.abs(curX)<=boundary;
     }
     
     void walk(){
@@ -74,6 +78,15 @@ public class RandomWalk {
     
     int getY(){
         return curY;
+    }
+    
+    private int max(int num1, int num2){
+        if (num1 >= num2){return num1;}
+        else {return num2;}
+    }
+    
+    public int getMaxDistance(){
+        return maxDistance;
     }
     
 }
