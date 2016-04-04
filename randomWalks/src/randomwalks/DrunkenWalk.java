@@ -4,8 +4,7 @@
 */
 package randomwalks;
 
-/**
- *
+/*
  * @author BedirTapkan
  */
 public class DrunkenWalk {

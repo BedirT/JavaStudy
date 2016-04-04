@@ -5,8 +5,7 @@
  */
 package randomwalks;
 
-/**
- *
+/*
  * @author BedirTapkan
  */
 import java.util.Scanner;

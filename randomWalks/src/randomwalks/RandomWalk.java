@@ -1,14 +1,14 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+    A random walk is basically a sequence of steps in some enclosed space where 
+    the direction of each step is random. The walk terminates either when a 
+    maximum number of steps has been taken or a step goes outside of the 
+    boundary of the space.
  */
 package randomwalks;
 
 import java.util.Random;
 
-/**
- *
+/*
  * @author BedirTapkan
  */
 
@@ -37,14 +37,32 @@ public class RandomWalk {
         return "Steps: " + steps + "; Position: (" + curX + "," + curY + ")";
     }
     
-    void takeStep(){ // WE HAVE A PROBLEM HERE ??
+    void takeStep(){
         Random random = new Random();
         
         
         int  rand = random.nextInt(4);
         
         //System.out.println(rand);
-        
+//        switch (rand) {
+//            case 0:
+//                curX++;
+//                break;
+//            case 1:
+//                curX--;
+//                break;
+//            case 2:
+//                curY++;
+//                break;
+//            case 3:
+//                curY--;
+//                break;
+//            default:
+//                break;
+//        }
+//      
+        // I made it with swift but I prefer if-else
+
         if      (rand==0){curX++;}
         else if (rand==1){curX--;}
         else if (rand==2){curY++;}

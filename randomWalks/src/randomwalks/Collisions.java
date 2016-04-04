@@ -1,10 +1,12 @@
 /*
-    
+    This program should simulate two particles moving in space. Its goal is to 
+    determine the number of times the two particles collide (occupy exactly the 
+    same position after the same number of steps -- the steps could be thought 
+    of as simulating time).
  */
 package randomwalks;
 
-/**
- *
+/*
  * @author BedirTapkan
  */
 public class Collisions {
