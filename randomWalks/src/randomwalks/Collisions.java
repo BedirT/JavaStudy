@@ -22,8 +22,8 @@ public class Collisions {
     
     int hits(){
         
-        RandomWalk particle1 = new RandomWalk(maxStep, boundary, curX1, curX1);
-        RandomWalk particle2 = new RandomWalk(maxStep, boundary, curX2, curX2);
+        RandomWalk particle1 = new RandomWalk(maxStep, boundary, curX1, curY1);
+        RandomWalk particle2 = new RandomWalk(maxStep, boundary, curX2, curY2);
         
         for(int i = 0 ; i < maxStep ; i++){
            
