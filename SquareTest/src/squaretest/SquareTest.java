@@ -23,16 +23,17 @@ public class SquareTest {
         
         Scanner scan = new Scanner(new File("/Users/BedirTapkan/Desktop/MagicData.txt"));
         
-        int size = 1;
+        int size = scan.nextInt();
         int count = 1;
         
         while(size>=0){
             
-            size = scan.nextInt();
-            scan.next();
             Square obj1 = new Square(size);
-            obj1.fillMatrix();
+            obj1.fillMatrix(scan);
+            obj1.printSqr();
             System.out.println(obj1.isMagic());
+            count++;
+            size = scan.nextInt();
             
         }
         

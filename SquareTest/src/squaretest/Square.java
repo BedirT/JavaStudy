@@ -16,17 +16,16 @@ import java.util.Scanner;
 public class Square {
     
     private int size;
-    int array[][] = new int[1001][1001];
-    Scanner scan = new Scanner(System.in);
+    int array[][];
     int sum = 0;
     
     Square (int size) {
         
-        this.size = size;
+        int array[][] = new int[size][size];
         
     }
     
-    public void fillMatrix(){
+    public void fillMatrix(Scanner scan){
         
         for(int i = 0 ; i<size ; i++){
             for(int j = 0 ; j<size ; j++){
