@@ -21,7 +21,8 @@ public class Square {
     
     Square (int size) {
         
-        int array[][] = new int[size][size];
+        this.size = size;
+        array = new int[size][size];
         
     }
     
